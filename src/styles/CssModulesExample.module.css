@@ -1,0 +1,17 @@
+.card {
+  background-color: tomato;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.card:hover {
+  background-color: darkred;
+}
+
+.card2{
+    background-color: aqua;
+    color: black;
+}

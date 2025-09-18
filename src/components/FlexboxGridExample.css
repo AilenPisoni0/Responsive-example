@@ -1,0 +1,28 @@
+.flex-container {
+  display: flex;
+  gap: 10px;
+  background: lightyellow;
+  width: 100%;
+}
+
+.flex-container div {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  background: orange;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+  background: lightgray;
+}
+
+.grid-container div {
+  padding: 20px;
+  background: teal;
+  color: white;
+  text-align: center;
+}
